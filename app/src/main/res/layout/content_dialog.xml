@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_margin"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DialogActivity"
+    tools:showIn="@layout/activity_dialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_text_size" />
+
+    <EditText
+        android:id="@+id/edittext_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:gravity="center"
+        android:maxLines="3"
+        android:minWidth="@dimen/edittext_width_min"
+        android:text="@string/demo_title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_description"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_text_size" />
+
+    <EditText
+        android:id="@+id/edittext_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:gravity="center"
+        android:maxLines="3"
+        android:minWidth="@dimen/edittext_width_min"
+        android:text="@string/demo_description"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="buttonCancelClicked"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_margin"
+            android:text="@string/button_notify_cancel" />
+
+        <Button
+            android:onClick="buttonNotifyClicked"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/button_notify" />
+
+    </LinearLayout>
+
+</LinearLayout>

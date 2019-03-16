@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Діалоги та повідомлення</string>
+    <string name="button_create_notify">Створити повідомлення</string>
+    <string name="enter_title">Введіть текст заголовку:</string>
+    <string name="demo_title">Мій текст</string>
+    <string name="enter_description">Введіть опис:</string>
+    <string name="demo_description">Мій опис</string>
+    <string name="button_notify">Повідомити</string>
+    <string name="button_notify_cancel">Скасувати</string>
+    <string name="cancel_toast_text">Операція скасована користувачем</string>
+    <string name="ok_toast_text">Повідомлення створено успішно</string>
+</resources>

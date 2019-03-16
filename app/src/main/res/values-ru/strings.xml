@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Диалоги и уведомления</string>
+    <string name="button_create_notify">Создать уведомление</string>
+    <string name="enter_title">Введите текст заголовка:</string>
+    <string name="demo_title">Мой текст</string>
+    <string name="enter_description">Введите описание:</string>
+    <string name="demo_description">Мое описание</string>
+    <string name="button_notify">Уведомить</string>
+    <string name="button_notify_cancel">Отменить</string>
+    <string name="cancel_toast_text">Операция отменена пользователем</string>
+    <string name="ok_toast_text">Уведомление создано успешно</string>
+</resources>
